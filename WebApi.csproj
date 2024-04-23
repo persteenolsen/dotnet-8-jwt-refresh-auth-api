@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        
+        <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.2" />
+        
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.2">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+        
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.2" />
+        
+        <!--Could be used if only running locally for developement but not in production-->
+        <!--<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.2" />-->
+        
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.4.0" />
+
+    </ItemGroup>
+
+</Project>
