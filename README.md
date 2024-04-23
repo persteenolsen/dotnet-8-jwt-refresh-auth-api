@@ -2,6 +2,9 @@
 
 .NET 8.0 - JWT Authentication with Refresh Tokens Tutorial with Example API
 
+# Last Updated
+
+- 23-04-2024
 
 # Functionality of the Web App
 
