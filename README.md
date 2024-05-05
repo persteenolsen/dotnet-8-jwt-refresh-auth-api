@@ -4,7 +4,15 @@
 
 # Last Updated
 
-- 23-04-2024
+- 05-05-2024
+
+The Web API was made without the ASP.NET Core Identity using custom JWT middleware
+
+# Functionality of the Web App
+
+- JWT authentication with refresh tokens
+- Refresh token rotation
+- Revoked token reuse detection
 
 # Functionality of the Web App
 
