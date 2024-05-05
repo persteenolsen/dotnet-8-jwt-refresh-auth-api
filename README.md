@@ -14,10 +14,6 @@ The Web API was made without the ASP.NET Core Identity using custom JWT middlewa
 - Refresh token rotation
 - Revoked token reuse detection
 
-# Functionality of the Web App
-
-- JWT authentication with Refresh Tokens
-
 # Tech used for creating the Web App
 
 - A .NET 8.0.203 Web API
