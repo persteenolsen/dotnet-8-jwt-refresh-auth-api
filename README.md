@@ -2,15 +2,15 @@
 
 .NET 8.0 - JWT Authentication with Refresh Tokens Tutorial with Example API
 
-# Last Updated
+# Last Updated:
 
 - 24-12-2024
 
 The Web API was made without the ASP.NET Core Identity using custom JWT middleware
 
-# Try an Angular frontend for testing the Web API
+# Try the Angular frontend for testing the Web API
 
-- [`Anlular 14 Client at GitHub`](https://github.com/persteenolsen/angular-jwt-refresh-auth-client) - An Angular 14 Client using JWT + Refresh Tokens for Auth
+- [`The Angular Client at GitHub`](https://github.com/persteenolsen/angular-jwt-refresh-auth-client) - The Angular 14 Client using JWT + Refresh Tokens for Auth
 
 # Functionality of the Web App
 
