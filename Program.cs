@@ -66,7 +66,7 @@ using (var scope = app.Services.CreateScope())
     var testUser = new User
     {
         FirstName = "Test",
-        LastName = "User - 04-05-2024",
+        LastName = "User - 02-09-2025",
         Username = "test",
         PasswordHash = BCrypt.Net.BCrypt.HashPassword("test")
     };
@@ -76,7 +76,7 @@ using (var scope = app.Services.CreateScope())
     var testAdmin = new User
     {
         FirstName = "Admin",
-        LastName = "User - 05-05-2024",
+        LastName = "User - 02-09-2025",
         Username = "admin",
         PasswordHash = BCrypt.Net.BCrypt.HashPassword("admin")
     };
